@@ -2,4 +2,8 @@ node_modules
 venv
 app/__pycache__
 __pycache__
+<<<<<<< HEAD
 .vscode
+=======
+.vscode
+>>>>>>> a7e20fd8307dd408a6902edb14206214cd17d6bf
