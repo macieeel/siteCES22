@@ -1,0 +1,23 @@
+{
+    "name": "siteces22",
+    "version": "1.0.0",
+    "description": "> Projeto WEB em Python para a matéria de CES-22, ITA 2022",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npx tailwindcss -i ./website/static/css/tailwind.css -o ./website/static/css/main.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/macieeel/siteCES22.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/macieeel/siteCES22/issues"
+    },
+    "homepage": "https://github.com/macieeel/siteCES22#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.0.24"
+    }
+}
