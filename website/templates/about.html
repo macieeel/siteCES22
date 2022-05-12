@@ -1,10 +1,12 @@
-{% extends 'index.html' %} {% block title %}Sobre{% endblock %} {% block content %}
-<div>
-    <h2>Alunos:</h2>
-    <ul>
+{% extends 'index.html' %} {% block title %}Sobre{% endblock %} {% block criadores %}font-bold{%
+endblock %} {% block content %}
+<div class="m-8 flex flex-col flex items-center">
+    <img src="../static/images/ita-logo.png" width="300" alt="Logo da faculdade ITA" class="" />
+    <ul class="my-8 text-center">
         <li>Bernardo Hoffmann da Silva</li>
         <li>Marcos Vinicius Pereira Veloso</li>
         <li>Victor Maciel</li>
     </ul>
+    <span class="font-bold">ITA 2022</span>
 </div>
 {% endblock %}

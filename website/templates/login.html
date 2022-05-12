@@ -1,0 +1,44 @@
+{% extends 'index.html' %} {% block title %}Login{% endblock %} {% block login %} font-semibold {%
+endblock %} {% block content %}
+<div class="flex mt-16 justify-center items-center mx-8">
+    <div class="w-full max-w-xl">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" method="POST">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-cyan-600 transition-all"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Escreva seu email"
+                />
+            </div>
+
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="senha1">Senha</label>
+                <input
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-cyan-600 transition-all"
+                    type="password"
+                    id="senha1"
+                    name="senha1"
+                    placeholder="Escreva sua senha"
+                />
+                <a
+                    class="mt-1 ml-1 text-xs text-cyan-600 hover:opacity-70 transition-opacity"
+                    href="/"
+                    >Esqueceu sua senha?</a
+                >
+            </div>
+
+            <div class="w-full flex justify-center">
+                <button
+                    class="shadow bg-cyan-600 hover:opacity-70 transition-opacity focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                    type="button"
+                >
+                    Login
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
