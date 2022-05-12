@@ -13,27 +13,9 @@
 
 ## Como rodar a aplicação:
 
-No terminal, clone o projeto:
-
-```
-git clone https://github.com/macieeel/siteCES22.git
-```
-
-Entre na pasta criada:
-
-```
-cd siteCES22
-```
-
-Baixe os módulos:
-
-```
-pip install flask
-pip install flask-login
-```
-
-Por fim, execute o arquivo main.py:
-
-```
-python main.py
-```
+1. `git clone https://github.com/macieeel/siteCES22.git` para clonar o repositório
+2. `cd siteCES22` para entrar na pasta criada
+3. `pip install -r requirements.txt` para instalar os pacotes do Flask
+4. `npm install` para instalar os pacotes de `package.json`
+5. Em um terminal, rode `npm run dev` para rodar o tailwind
+6. Por fim, em um segundo terminal, execute o arquivo main.py: `python main.py`
