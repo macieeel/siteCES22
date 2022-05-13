@@ -1,6 +1,12 @@
 {% extends 'index.html' %} {% block title %}Home{% endblock %} {% block home %}font-bold{% endblock
 %} {% block content %}
 <div class="m-8">
-    <p>Site CES-22, ITA 2022</p>
+    <div class="flex flex-col">
+        <p class="font-bold mb-1">Página Inicial</p>
+        <p class="text-lg">
+            Bem-Vindo,
+            <span class="text-cyan-600 font-semibold">{{ user.nome }} {{ user.sobrenome }}</span>
+        </p>
+    </div>
 </div>
 {% endblock %}
